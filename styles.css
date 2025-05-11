@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f9d5ec, #c9e4f6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    color: #333;
+    font-size: 2.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  h1:hover {
+    transform: scale(1.05);
+  }
+  
