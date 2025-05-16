@@ -1,25 +1,70 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(135deg, #f9d5ec, #c9e4f6);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  h1 {
-    background-color: white;
-    padding: 30px 50px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    color: #333;
-    font-size: 2.5rem;
-    transition: transform 0.3s ease;
-  }
-  
-  h1:hover {
-    transform: scale(1.05);
-  }
-  
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #3e1e68, #7c3aed); /* Railway colors */
+  color: #fff;
+}
+
+header {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.descripcion {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+section h2 {
+  color: #ffdb58;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #f0f0f0;
+}
+
+a {
+  color: #ffdb58;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b165b;
+  font-size: 14px;
+  color: #ccc;
+}
